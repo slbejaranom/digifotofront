@@ -1,0 +1,25 @@
+<!--Acá irá la pantalla de próximamente página web-->
+<div class="main">
+  <table class="contenido">
+    <tr class="redirection">
+      <td rowspan="3" class="logotipo">
+        <img src="../../../assets/images/logo.jpeg" />
+      </td>
+      <td class="icono" (click)="redirectIg()">
+        <img src="../../../assets/images/ig.png" />
+      </td>
+      <td (click)="redirectIg()">@digifotoliced</td>
+    </tr>
+    <tr (click)="redirectMail()" class="redirection">
+      <td class="icono"><img src="../../../assets/images/mail.png" /></td>
+      <td>digifotoliced@gmail.com</td>
+    </tr>
+    <tr (click)="redirectWpp()" class="redirection">
+      <td class="icono"><img src="../../../assets/images/wpp.png" /></td>
+      <td>+57-3235004284</td>
+    </tr>
+  </table>
+  <footer>
+    <div class="textoCentrado">Próximamente</div>
+  </footer>
+</div>
